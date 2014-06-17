@@ -59,6 +59,11 @@ alias pu='pushd'
 alias rm="${aliases[rm]:-rm} -i"
 alias type='type -a'
 
+# Vagrant Aliases
+alias vu='vagrant up'
+alias vssh='vagrant ssh'
+alias vh='vagrant halt'
+
 # ls
 if is-callable 'dircolors'; then
   # GNU Core Utilities
